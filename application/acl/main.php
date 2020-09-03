@@ -1,6 +1,6 @@
 <?php
 return [
-    'all' => [''],
+    'all' => ['index','about','contact','post',],
     'authorize' => [''],
     'guest' => [],
     'admin' => [],
