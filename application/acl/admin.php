@@ -3,7 +3,7 @@ return [
     'all' => ['login',],
     'authorize' => [],
     'guest' => [],
-    'admin' => ['logout', 'add', 'edit', 'delete'],
+    'admin' => ['posts' ,'logout', 'add', 'edit', 'delete'],
 ];
 
 ?>
