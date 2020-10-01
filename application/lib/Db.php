@@ -32,6 +32,11 @@ class Db{
         $result = $this->query($sql, $params);
         return $result->fetchColumn();
     }
+
+    public function lastInsertId(){
+        return $this->db->lastInsertId();
+    }
+
 }
 
 ?>
